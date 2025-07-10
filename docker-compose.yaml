@@ -11,9 +11,6 @@ services:
       - ./:/app
     networks:
       - text-evaluation-network
-    # environment:
-    #   - IAM_TOKEN=${IAM_TOKEN}
-    # restart: unless-stopped
 
 networks:
   text-evaluation-network:
