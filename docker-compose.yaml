@@ -1,0 +1,14 @@
+services:
+  api:
+    env_file:
+      - .env
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8001:8001"
+    volumes:
+      - ./:/app
+    # environment:
+    #   - IAM_TOKEN=${IAM_TOKEN}
+    # restart: unless-stopped

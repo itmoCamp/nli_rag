@@ -1,0 +1,15 @@
+# Latent File
+.env
+config.yml
+
+# Cache and temporary files
+*.cache
+*.tmp
+*.log
+
+# Python cache files
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+
